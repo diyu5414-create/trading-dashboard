@@ -154,6 +154,22 @@ npm run test:watch   # watch mode
 - ✅ Price threshold alerts (above/below with triggered notifications)
 - ✅ Docker containerisation (multi-stage builds + docker-compose)
 
+## Screenshots
+
+### Dashboard
+![Dashboard](./screenshots/DASHBOARD.png)
+
+### Trading Chart
+![Chart](./screenshots/CHART.png)
+
+### Trading asset
+![Alerts](./screenshots/ASSET.png)
+
+### Alerts Panel
+![Alerts](./screenshots/ALERT.png)
+
+
+
   ## Known Issues
 
 - WebSocket reconnect logic needs improvement
