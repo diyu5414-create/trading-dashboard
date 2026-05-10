@@ -117,7 +117,7 @@ export function PriceChart({ history, liveTicker, loading }: Props) {
           <Line
             yAxisId="price"
             type="monotone"
-            dataKey="close"
+            dataKey="close" 
             stroke={lineColor}
             strokeWidth={2}
             dot={false}
