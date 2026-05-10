@@ -63,7 +63,7 @@ export function Dashboard() {
             className={`alerts-toggle ${triggeredCount > 0 ? 'has-alerts' : ''}`}
             onClick={() => setShowAlerts((v) => !v)}
           >
-            🔔 Alerts {triggeredCount > 0 && <span className="badge">{triggeredCount}</span>}
+            🔔  Alerts {triggeredCount > 0 && <span className="badge">{triggeredCount}</span>}
           </button>
           <span className="dash-user">
             {user?.username}
