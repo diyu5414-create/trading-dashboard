@@ -153,3 +153,9 @@ npm run test:watch   # watch mode
 - ✅ Caching for historical data (1-min TTL in-memory cache)
 - ✅ Price threshold alerts (above/below with triggered notifications)
 - ✅ Docker containerisation (multi-stage builds + docker-compose)
+
+  ## Known Issues
+
+- WebSocket reconnect logic needs improvement
+- Large datasets can slow chart rendering
+- Authentication flow is basic right now
