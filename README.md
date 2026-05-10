@@ -1,4 +1,9 @@
-# NexusTrade — Real-Time Trading Dashboard
+# Real-Time Trading Dashboard
+
+## Why I Built This
+
+I built this project to practice real-time trading dashboards using React,
+WebSockets, and backend API integration.
 
 A full-stack real-time cryptocurrency and stock trading dashboard built with React + TypeScript (frontend) and Node.js + TypeScript (backend).
 
