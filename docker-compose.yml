@@ -1,0 +1,28 @@
+version: '3.9'
+
+services:
+  backend:
+    build: ./backend
+    container_name: trading-backend
+    ports:
+      - "4000:4000"
+      - "4001:4001"
+    environment:
+      PORT: 4000
+      WS_PORT: 4001
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:4000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  frontend:
+    build: ./frontend
+    container_name: trading-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
