@@ -5,7 +5,7 @@
 I built this project to practice real-time trading dashboards using React,
 WebSockets, and backend API integration.
 
-A full-stack real-time cryptocurrency and stock trading dashboard built with React + TypeScript (frontend) and Node.js + TypeScript (backend).
+A full-stack real-time cryptocurrency and stock trading dashboard built with React + TypeScript (frontend) and Node.js (backend).
 
 ---
 
